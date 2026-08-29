@@ -1,0 +1,95 @@
+Necesito que construyas la estructura completa de una base de datos que funciona
+como memoria de un sistema de automatización con IA. El sistema recibe consultas
+comerciales por email, las clasifica con IA, pide aprobación humana y responde.
+
+Creá EXACTAMENTE estas 7 tablas con estos campos y estas relaciones.
+Respetá los nombres tal como los escribo, incluidos los prefijos.
+
+TABLA 1 — CLI_Clientes
+- Empresa (single line text)
+- Dominio (single line text)
+- Contacto_Principal (single line text)
+- Email_Contacto (email)
+- Telefono (phone number)
+- Tipo_Cliente (single select: Nuevo, Recurrente, Ex-cliente)
+- Notas (long text)
+
+TABLA 2 — LEAD_Solicitudes
+- Message_ID (single line text) — identificador único del mensaje entrante
+- Canal_Origen (single select: Gmail, WhatsApp, Formulario)
+- Asunto (single line text)
+- Cuerpo_Original (long text)
+- Estado (single select, en este orden exacto: Pendiente, Procesado por IA,
+  En revisión humana, Aprobado, Rechazado, Enviado, Descartado, Error)
+- Segmento (single select: VIP, Estandar, Descartado)
+- Urgencia (single select: Alta, Media, Baja)
+- Intencion (single select: Cotizacion, Soporte, Info, Spam)
+- Score_IA (number, entero, sin decimales)
+- Confianza_IA (number, 2 decimales)
+- Resumen_IA (long text)
+- Borrador_Respuesta (long text)
+- Aprobado_Por (single line text)
+- Fecha_Aprobacion (date con hora)
+- Fecha_Envio (date con hora)
+- Motivo_Rechazo (long text)
+- Monto_Estimado (currency, USD)
+
+TABLA 3 — INT_Interacciones
+- Direccion (single select: Entrante, Saliente)
+- Canal (single select: Gmail, Slack, WhatsApp)
+- Thread_ID (single line text)
+- Contenido (long text)
+- Generado_Por (single select: Humano, IA)
+
+TABLA 4 — LOG_Ejecuciones
+- Execution_ID (single line text)
+- Workflow (single select: Principal, Batch, Error)
+- Inicio (date con hora)
+- Fin (date con hora)
+- Resultado (single select: Exito, Error, Parcial)
+- Modelo_Usado (single select: gpt-4o-mini, claude-sonnet, claude-batch)
+- Tokens_Input (number, entero)
+- Tokens_Output (number, entero)
+- Tokens_Cache_Read (number, entero)
+- Prompt_Version (single line text)
+
+TABLA 5 — LOG_Errores
+- Nodo (single line text)
+- Tipo_Error (single select: API_FAIL, DATA_MISSING, PARSE_FAIL, AUTH_FAIL, TIMEOUT)
+- Mensaje (long text)
+- Payload_Anonimizado (long text)
+- Severidad (single select: Alta, Media, Baja)
+- Resuelto (checkbox)
+
+TABLA 6 — CFG_Config
+- Clave (single line text)
+- Valor (single line text)
+- Tipo (single select: number, string, boolean)
+- Descripcion (long text)
+- Activo (checkbox)
+
+TABLA 7 — PRM_Prompts
+- Nombre (single line text)
+- Version (single line text)
+- Prefijo_Estatico (long text)
+- Cuerpo_Dinamico (long text)
+- Modelo_Destino (single select: gpt-4o-mini, claude-sonnet)
+- Activo (checkbox)
+
+RELACIONES (campos de tipo "link to another record"):
+- LEAD_Solicitudes tiene un campo "Cliente" vinculado a CLI_Clientes (uno a muchos:
+  un cliente puede tener muchos leads)
+- INT_Interacciones tiene un campo "Lead" vinculado a LEAD_Solicitudes
+- LOG_Ejecuciones tiene un campo "Lead" vinculado a LEAD_Solicitudes
+- LOG_Errores tiene un campo "Ejecucion" vinculado a LOG_Ejecuciones
+
+CAMPOS CALCULADOS:
+- En LEAD_Solicitudes, campo "Tiempo_Respuesta_Min" tipo formula:
+  DATETIME_DIFF({Fecha_Envio}, CREATED_TIME(), 'minutes')
+- En LOG_Ejecuciones, campo "Duracion_Seg" tipo formula:
+  DATETIME_DIFF({Fin}, {Inicio}, 'seconds')
+- En CLI_Clientes, campo "Cantidad_Leads" tipo count sobre el vínculo con
+  LEAD_Solicitudes
+
+No agregues tablas ni campos que no estén en esta lista.
+No cargues datos de ejemplo todavía.

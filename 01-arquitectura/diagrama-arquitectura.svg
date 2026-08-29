@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="2500" viewBox="0 0 1990 2500">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7A8496"/></marker></defs>
+<rect width="1990" height="2500" fill="#FFFFFF"/>
+<text x="20.0" y="46.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" fill="#1A1F28" text-anchor="start" >Mapa de Arquitectura del Sistema</text>
+<text x="20.0" y="72.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#5C6672" text-anchor="start" >Ecosistema de Automatización IA Autónomo · Vector Consultores  ·  Orquestador: n8n  ·  Memoria: Airtable  ·  IA: GPT-4o-mini + Claude  ·  Salida: Gmail / Slack / WhatsApp</text>
+<text x="1970.0" y="46.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#5C6672" text-anchor="end" >Matías Medrano</text>
+<text x="1970.0" y="68.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="normal" fill="#5C6672" text-anchor="end" >Módulo 8 · Proyecto Integrador</text>
+<line x1="20" y1="90" x2="1970" y2="90" stroke="#D8DCE3" stroke-width="2"/>
+<rect x="20" y="105" width="325" height="2180" fill="#F7F8FA"/>
+<line x1="20" y1="105" x2="20" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="20" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="182.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >1 · ENTRADA</text>
+<text x="182.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >Triggers y validación</text>
+<rect x="345" y="105" width="325" height="2180" fill="#FFFFFF"/>
+<line x1="345" y1="105" x2="345" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="345" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="507.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >2 · MEMORIA</text>
+<text x="507.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >Airtable — cerebro relacional</text>
+<rect x="670" y="105" width="325" height="2180" fill="#F7F8FA"/>
+<line x1="670" y1="105" x2="670" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="670" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="832.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >3 · INTELIGENCIA</text>
+<text x="832.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >Nodos de IA (OpenAI / Claude)</text>
+<rect x="995" y="105" width="325" height="2180" fill="#FFFFFF"/>
+<line x1="995" y1="105" x2="995" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="995" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="1157.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >4 · CONTROL HUMANO</text>
+<text x="1157.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >Human-in-the-loop</text>
+<rect x="1320" y="105" width="325" height="2180" fill="#F7F8FA"/>
+<line x1="1320" y1="105" x2="1320" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="1320" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="1482.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >5 · SALIDA</text>
+<text x="1482.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >APIs de comunicación</text>
+<rect x="1645" y="105" width="325" height="2180" fill="#FFFFFF"/>
+<line x1="1645" y1="105" x2="1645" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="1645" y="105" width="325" height="40" fill="#2C3444"/>
+<text x="1807.5" y="124.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >6 · RESILIENCIA</text>
+<text x="1807.5" y="138.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#B7BEC9" text-anchor="middle" >Error handling y batch</text>
+<line x1="1970" y1="105" x2="1970" y2="2285" stroke="#D8DCE3" stroke-width="1.5"/>
+<rect x="50.0" y="169.0" width="265" height="62" rx="26" fill="#E6F5EC" stroke="#1E9E5A" stroke-width="2"/>
+<rect x="50.0" y="169.0" width="5" height="62" rx="2.5" fill="#1E9E5A"/>
+<text x="185.5" y="194.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >TRG_Gmail_NuevoMensaje</text>
+<text x="185.5" y="211.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Trigger · etiqueta Consultas/Entrantes · From</text>
+<text x="185.5" y="223.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >now on</text>
+<rect x="50.0" y="279.0" width="265" height="62" rx="7" fill="#EDF0F4" stroke="#4A5568" stroke-width="2"/>
+<rect x="50.0" y="279.0" width="5" height="62" rx="2.5" fill="#4A5568"/>
+<text x="185.5" y="304.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >SET_Contexto_Ejecucion</text>
+<text x="185.5" y="321.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >execution_id · timestamp · prompt_version</text>
+<rect x="50.0" y="389.0" width="265" height="62" rx="7" fill="#EDF0F4" stroke="#4A5568" stroke-width="2"/>
+<rect x="50.0" y="389.0" width="5" height="62" rx="2.5" fill="#4A5568"/>
+<text x="185.5" y="414.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >FN_Normalizar_Payload</text>
+<text x="185.5" y="431.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >limpia HTML · normaliza tel. +54 · trunca</text>
+<text x="185.5" y="443.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >cuerpo</text>
+<circle cx="302.0" cy="402.0" r="8.5" fill="#B32424"/>
+<text x="302.0" y="406.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="50.0" y="499.0" width="265" height="62" rx="7" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<rect x="50.0" y="499.0" width="5" height="62" rx="2.5" fill="#C77A0A"/>
+<text x="185.5" y="524.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >IF_Validar_CamposMinimos</text>
+<text x="185.5" y="541.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >¿email válido Y cuerpo &gt; 20 car.?</text>
+<rect x="50.0" y="609.0" width="265" height="62" rx="7" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<rect x="50.0" y="609.0" width="5" height="62" rx="2.5" fill="#C77A0A"/>
+<text x="185.5" y="634.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >IF_AntiLoop</text>
+<text x="185.5" y="651.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >¿remitente propio? ¿Message_ID duplicado?</text>
+<rect x="375.0" y="719.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="719.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="744.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Buscar_Cliente</text>
+<text x="510.5" y="761.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >CLI_Clientes · match por dominio → historial</text>
+<circle cx="627.0" cy="732.0" r="8.5" fill="#B32424"/>
+<text x="627.0" y="736.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="375.0" y="829.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="829.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="854.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Crear_Lead</text>
+<text x="510.5" y="871.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >LEAD_Solicitudes · Estado: Pendiente</text>
+<circle cx="627.0" cy="842.0" r="8.5" fill="#B32424"/>
+<text x="627.0" y="846.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="700.0" y="939.0" width="265" height="62" rx="7" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="2"/>
+<rect x="700.0" y="939.0" width="5" height="62" rx="2.5" fill="#6B3FA0"/>
+<text x="835.5" y="964.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AI_Clasificar_Lead_Mini</text>
+<text x="835.5" y="981.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >OpenAI GPT-4o-mini · JSON estricto · temp 0</text>
+<circle cx="952.0" cy="952.0" r="8.5" fill="#B32424"/>
+<text x="952.0" y="956.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="700.0" y="1049.0" width="265" height="62" rx="7" fill="#EDF0F4" stroke="#4A5568" stroke-width="2"/>
+<rect x="700.0" y="1049.0" width="5" height="62" rx="2.5" fill="#4A5568"/>
+<text x="835.5" y="1074.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >FN_Validar_JSON_IA</text>
+<text x="835.5" y="1091.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >valida schema · 1 reintento · si falla → HITL</text>
+<circle cx="952.0" cy="1062.0" r="8.5" fill="#B32424"/>
+<text x="952.0" y="1066.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="375.0" y="1159.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="1159.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="1184.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Update_Clasificacion</text>
+<text x="510.5" y="1201.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >segmento · score · Estado: Procesado por IA</text>
+<circle cx="627.0" cy="1172.0" r="8.5" fill="#B32424"/>
+<text x="627.0" y="1176.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="700.0" y="1269.0" width="265" height="62" rx="7" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<rect x="700.0" y="1269.0" width="5" height="62" rx="2.5" fill="#C77A0A"/>
+<text x="835.5" y="1294.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >SW_Router_Segmento</text>
+<text x="835.5" y="1311.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >3 salidas según Score_IA (número vs número)</text>
+<rect x="677.5" y="1404.0" width="152" height="62" rx="7" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="2"/>
+<rect x="677.5" y="1404.0" width="5" height="62" rx="2.5" fill="#6B3FA0"/>
+<text x="756.5" y="1429.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AI_Analizar_Claude_VIP</text>
+<text x="756.5" y="1446.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Claude · lectura densa +</text>
+<text x="756.5" y="1458.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Prompt Caching</text>
+<circle cx="816.5" cy="1417.0" r="8.5" fill="#B32424"/>
+<text x="816.5" y="1421.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="835.5" y="1404.0" width="152" height="62" rx="7" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="2"/>
+<rect x="835.5" y="1404.0" width="5" height="62" rx="2.5" fill="#6B3FA0"/>
+<text x="914.5" y="1429.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.0" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AI_Redactar_Mini</text>
+<text x="914.5" y="1446.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >GPT-4o-mini · respuesta</text>
+<text x="914.5" y="1458.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >breve</text>
+<circle cx="974.5" cy="1417.0" r="8.5" fill="#B32424"/>
+<text x="974.5" y="1421.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="375.0" y="1394.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="1394.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="1419.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Archivar_Descartado</text>
+<text x="510.5" y="1436.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Estado: Descartado + motivo</text>
+<rect x="375.0" y="1509.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="1509.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="1534.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Guardar_Borrador</text>
+<text x="510.5" y="1551.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Estado: En revisión humana</text>
+<circle cx="627.0" cy="1522.0" r="8.5" fill="#B32424"/>
+<text x="627.0" y="1526.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="1025.0" y="1619.0" width="265" height="62" rx="7" fill="#E7EFFB" stroke="#1F5FBF" stroke-width="2"/>
+<rect x="1025.0" y="1619.0" width="5" height="62" rx="2.5" fill="#1F5FBF"/>
+<text x="1160.5" y="1644.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >SLK_Solicitar_Aprobacion</text>
+<text x="1160.5" y="1661.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Slack Block Kit · Aprobar / Editar / Rechazar</text>
+<circle cx="1277.0" cy="1632.0" r="8.5" fill="#B32424"/>
+<text x="1277.0" y="1636.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="1025.0" y="1729.0" width="265" height="62" rx="7" fill="#E7EFFB" stroke="#1F5FBF" stroke-width="2"/>
+<rect x="1025.0" y="1729.0" width="5" height="62" rx="2.5" fill="#1F5FBF"/>
+<text x="1160.5" y="1754.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >WAIT_Aprobacion_HITL</text>
+<text x="1160.5" y="1771.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >pausa hasta callback · timeout 24 h</text>
+<rect x="1025.0" y="1839.0" width="265" height="62" rx="7" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<rect x="1025.0" y="1839.0" width="5" height="62" rx="2.5" fill="#C77A0A"/>
+<text x="1160.5" y="1864.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >IF_Aprobado</text>
+<text x="1160.5" y="1881.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >evalúa la decisión humana</text>
+<rect x="1327.5" y="1964.0" width="152" height="62" rx="7" fill="#FBEDE6" stroke="#C0562B" stroke-width="2"/>
+<rect x="1327.5" y="1964.0" width="5" height="62" rx="2.5" fill="#C0562B"/>
+<text x="1406.5" y="1989.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >GML_Enviar_Respuesta</text>
+<text x="1406.5" y="2006.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Gmail API · responde en</text>
+<text x="1406.5" y="2018.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >threadId</text>
+<circle cx="1466.5" cy="1977.0" r="8.5" fill="#B32424"/>
+<text x="1466.5" y="1981.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="1485.5" y="1964.0" width="152" height="62" rx="7" fill="#FBEDE6" stroke="#C0562B" stroke-width="2"/>
+<rect x="1485.5" y="1964.0" width="5" height="62" rx="2.5" fill="#C0562B"/>
+<text x="1564.5" y="1989.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >WSP_Alerta_VIP</text>
+<text x="1564.5" y="2006.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >WhatsApp API · plantilla</text>
+<text x="1564.5" y="2018.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >· +54</text>
+<circle cx="1624.5" cy="1977.0" r="8.5" fill="#B32424"/>
+<text x="1624.5" y="1981.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="375.0" y="1964.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="1964.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="1989.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Log_Rechazo</text>
+<text x="510.5" y="2006.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Motivo_Rechazo · no se envía nada</text>
+<rect x="375.0" y="2084.0" width="265" height="62" rx="7" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<rect x="375.0" y="2084.0" width="5" height="62" rx="2.5" fill="#0E7C86"/>
+<text x="510.5" y="2109.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Cerrar_Registro + Log</text>
+<text x="510.5" y="2126.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Estado: Enviado · tokens · costo USD</text>
+<circle cx="627.0" cy="2097.0" r="8.5" fill="#B32424"/>
+<text x="627.0" y="2101.5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<rect x="375.0" y="2199.0" width="265" height="62" rx="26" fill="#E9EAEC" stroke="#111827" stroke-width="2"/>
+<rect x="375.0" y="2199.0" width="5" height="62" rx="2.5" fill="#111827"/>
+<text x="510.5" y="2224.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >DASHBOARD — Shared View pública</text>
+<text x="510.5" y="2241.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >DESTINO FINAL · KPIs y tasa de errores</text>
+<rect x="1675.0" y="719.0" width="265" height="62" rx="7" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<rect x="1675.0" y="719.0" width="5" height="62" rx="2.5" fill="#B32424"/>
+<text x="1810.5" y="744.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >ERR_Trigger_Global</text>
+<text x="1810.5" y="761.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >Error Workflow de n8n</text>
+<rect x="1675.0" y="829.0" width="265" height="62" rx="7" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<rect x="1675.0" y="829.0" width="5" height="62" rx="2.5" fill="#B32424"/>
+<text x="1810.5" y="854.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >FN_Clasificar_Error</text>
+<text x="1810.5" y="871.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >API_FAIL · DATA_MISSING · PARSE_FAIL · AUTH</text>
+<rect x="1675.0" y="939.0" width="265" height="62" rx="7" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<rect x="1675.0" y="939.0" width="5" height="62" rx="2.5" fill="#B32424"/>
+<text x="1810.5" y="964.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Log_Error</text>
+<text x="1810.5" y="981.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >LOG_Errores · payload anonimizado</text>
+<rect x="1675.0" y="1049.0" width="265" height="62" rx="7" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<rect x="1675.0" y="1049.0" width="5" height="62" rx="2.5" fill="#C77A0A"/>
+<text x="1810.5" y="1074.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >IF_Es_Critico</text>
+<text x="1810.5" y="1091.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >AUTH_FAIL o 3 fallos / hora</text>
+<rect x="1675.0" y="1159.0" width="265" height="62" rx="7" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<rect x="1675.0" y="1159.0" width="5" height="62" rx="2.5" fill="#B32424"/>
+<text x="1810.5" y="1184.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >SLK_Alerta_Ops</text>
+<text x="1810.5" y="1201.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >canal #alertas-sistema</text>
+<rect x="1675.0" y="1269.0" width="265" height="62" rx="7" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<rect x="1675.0" y="1269.0" width="5" height="62" rx="2.5" fill="#B32424"/>
+<text x="1810.5" y="1294.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Update_Estado_Error</text>
+<text x="1810.5" y="1311.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="normal" fill="#5C6672" text-anchor="middle" >marca el lead como Error</text>
+<rect x="1659.5" y="1500" width="296" height="470" rx="10" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1807.5" y="1524.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6B3FA0" text-anchor="middle" >SUB-FLUJO MENSUAL · MESSAGE BATCHES</text>
+<text x="1807.5" y="1540.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#5C6672" text-anchor="middle" >no urgente · 50% de descuento</text>
+<rect x="1679.5" y="1578" width="256" height="56" rx="6" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="1.5"/>
+<text x="1807.5" y="1602.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >TRG_Cron_Mensual</text>
+<text x="1807.5" y="1619.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#5C6672" text-anchor="middle" >día 1 · 02:00</text>
+<path d="M 1807.5 1634 L 1807.5 1674" fill="none" stroke="#6B3FA0" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1679.5" y="1674" width="256" height="56" rx="6" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="1.5"/>
+<text x="1807.5" y="1698.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Traer_Leads_Mes</text>
+<text x="1807.5" y="1715.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#5C6672" text-anchor="middle" >todos los leads del mes</text>
+<path d="M 1807.5 1730 L 1807.5 1770" fill="none" stroke="#6B3FA0" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1679.5" y="1770" width="256" height="56" rx="6" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="1.5"/>
+<text x="1807.5" y="1794.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AI_Batch_Claude_Submit</text>
+<text x="1807.5" y="1811.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#5C6672" text-anchor="middle" >Message Batches API · −50%</text>
+<path d="M 1807.5 1826 L 1807.5 1866" fill="none" stroke="#6B3FA0" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1679.5" y="1866" width="256" height="56" rx="6" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="1.5"/>
+<text x="1807.5" y="1890.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1A1F28" text-anchor="middle" >AT_Guardar_Insights → SLK</text>
+<text x="1807.5" y="1907.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="normal" fill="#5C6672" text-anchor="middle" >RPT_Insights + resumen</text>
+<path d="M 182.5 231.0 L 182.5 279.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 182.5 341.0 L 182.5 389.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 182.5 451.0 L 182.5 499.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 182.5 561.0 L 182.5 609.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="190.5" y="574.0" width="21.2" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="190.5" y="585.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="start" >SÍ</text>
+<path d="M 182.5 671.0 L 182.5 700.0 L 507.5 700.0 L 507.5 719.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="298.0" y="682.0" width="94.0" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="345.0" y="693.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >NO es duplicado</text>
+<path d="M 507.5 781.0 L 507.5 829.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 507.5 891.0 L 507.5 920.0 L 832.5 920.0 L 832.5 939.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="614.6" y="902.0" width="110.8" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="670.0" y="913.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >payload + contexto</text>
+<path d="M 832.5 1001.0 L 832.5 1049.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 832.5 1111.0 L 832.5 1140.0 L 507.5 1140.0 L 507.5 1159.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="634.2" y="1122.0" width="71.6" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="670.0" y="1133.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >JSON válido</text>
+<path d="M 507.5 1221.0 L 507.5 1250.0 L 832.5 1250.0 L 832.5 1269.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 832.5 1331.0 L 832.5 1350.0 L 753.5 1350.0 L 753.5 1404.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="779.6" y="1332.0" width="26.8" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="793.0" y="1343.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >VIP</text>
+<path d="M 832.5 1331.0 L 832.5 1350.0 L 911.5 1350.0 L 911.5 1404.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="844.6" y="1332.0" width="54.8" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="872.0" y="1343.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >Estándar</text>
+<path d="M 832.5 1331.0 L 832.5 1350.0 L 507.5 1350.0 L 507.5 1394.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="637.0" y="1332.0" width="66.0" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="670.0" y="1343.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >Descartado</text>
+<path d="M 753.5 1466.0 L 753.5 1500.0 L 507.5 1500.0 L 507.5 1509.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 911.5 1466.0 L 911.5 1507.0 L 507.5 1507.0 L 507.5 1509.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 507.5 1571.0 L 507.5 1600.0 L 1157.5 1600.0 L 1157.5 1619.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="782.7" y="1582.0" width="99.6" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="832.5" y="1593.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >borrador + score</text>
+<path d="M 1157.5 1681.0 L 1157.5 1729.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1157.5 1791.0 L 1157.5 1839.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1157.5 1901.0 L 1157.5 1945.0 L 1403.5 1945.0 L 1403.5 1964.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1253.1" y="1927.0" width="54.8" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="1280.5" y="1938.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >APROBADO</text>
+<path d="M 1157.5 1901.0 L 1157.5 1952.0 L 1561.5 1952.0 L 1561.5 1964.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1337.7" y="1934.0" width="43.6" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="1359.5" y="1945.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >si VIP</text>
+<path d="M 1157.5 1901.0 L 1157.5 1959.0 L 507.5 1959.0 L 507.5 1964.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="802.3" y="1941.0" width="60.4" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="832.5" y="1952.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="middle" >RECHAZADO</text>
+<path d="M 1403.5 2026.0 L 1403.5 2062.0 L 507.5 2062.0 L 507.5 2084.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1561.5 2026.0 L 1561.5 2069.0 L 507.5 2069.0 L 507.5 2084.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 507.5 2026.0 L 507.5 2084.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 507.5 2146.0 L 507.5 2199.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1807.5 781.0 L 1807.5 829.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1807.5 891.0 L 1807.5 939.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1807.5 1001.0 L 1807.5 1049.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1807.5 1111.0 L 1807.5 1159.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1815.5" y="1124.0" width="49.2" height="15" rx="3" fill="#FFFFFF" opacity="0.92"/>
+<text x="1815.5" y="1135.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#7A8496" text-anchor="start" >crítico</text>
+<path d="M 1807.5 1221.0 L 1807.5 1269.0" fill="none" stroke="#7A8496" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 1807.5 679.0 L 1807.5 719.0" fill="none" stroke="#B32424" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="1657.5" y="647.0" width="300" height="30" rx="6" fill="#FBE9E9" stroke="#B32424" stroke-width="1.5"/>
+<text x="1807.5" y="667.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10.5" font-weight="bold" fill="#B32424" text-anchor="middle" >todo nodo marcado  !  deriva acá</text>
+<path d="M 1675.0 1300.0 L 1651.0 1300.0 L 1651.0 1382 L 62 1382 L 62 2230.0 L 375.0 2230.0" fill="none" stroke="#B32424" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="122" y="1360" width="250" height="17" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="130.0" y="1373.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="10" font-weight="bold" fill="#B32424" text-anchor="start" >tasa de errores  →  dashboard</text>
+<rect x="20" y="2305" width="1950" height="175" rx="9" fill="#FAFBFC" stroke="#D8DCE3" stroke-width="1.5"/>
+<text x="40.0" y="2333.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1A1F28" text-anchor="start" >LEYENDA</text>
+<rect x="45" y="2350" width="26" height="20" rx="4" fill="#E6F5EC" stroke="#1E9E5A" stroke-width="2"/>
+<text x="81.0" y="2365.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Trigger de entrada</text>
+<rect x="430" y="2350" width="26" height="20" rx="4" fill="#EDF0F4" stroke="#4A5568" stroke-width="2"/>
+<text x="466.0" y="2365.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Función / transformación</text>
+<rect x="815" y="2350" width="26" height="20" rx="4" fill="#FDF3E2" stroke="#C77A0A" stroke-width="2"/>
+<text x="851.0" y="2365.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Filtro, condición o router</text>
+<rect x="1200" y="2350" width="26" height="20" rx="4" fill="#E2F4F5" stroke="#0E7C86" stroke-width="2"/>
+<text x="1236.0" y="2365.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Airtable (memoria)</text>
+<rect x="1585" y="2350" width="26" height="20" rx="4" fill="#F0E9F8" stroke="#6B3FA0" stroke-width="2"/>
+<text x="1621.0" y="2365.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Nodo de IA (OpenAI / Claude)</text>
+<rect x="45" y="2384" width="26" height="20" rx="4" fill="#E7EFFB" stroke="#1F5FBF" stroke-width="2"/>
+<text x="81.0" y="2399.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Human-in-the-loop</text>
+<rect x="430" y="2384" width="26" height="20" rx="4" fill="#FBEDE6" stroke="#C0562B" stroke-width="2"/>
+<text x="466.0" y="2399.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >API de salida (Gmail/WhatsApp)</text>
+<rect x="815" y="2384" width="26" height="20" rx="4" fill="#FBE9E9" stroke="#B32424" stroke-width="2"/>
+<text x="851.0" y="2399.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Ruta de error</text>
+<rect x="1200" y="2384" width="26" height="20" rx="4" fill="#E9EAEC" stroke="#111827" stroke-width="2"/>
+<text x="1236.0" y="2399.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Destino final de los datos</text>
+<circle cx="56" cy="2429" r="8.5" fill="#B32424"/>
+<text x="56.0" y="2433.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >!</text>
+<text x="75.0" y="2433.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Nodo con ruta de contingencia hacia el Error Workflow (retry + log + alerta).</text>
+<path d="M 820 2429 L 875 2429" stroke="#B32424" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="885.0" y="2433.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1A1F28" text-anchor="start" >Flujo de resiliencia (no es el camino principal).</text>
+<text x="40.0" y="2463.0" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="normal" fill="#5C6672" text-anchor="start" >HITL: ninguna acción hacia el exterior (Gmail / WhatsApp) se ejecuta sin aprobación humana explícita en Slack.  ·  Sin datos hardcodeados: umbrales y modelos se leen de la tabla CFG_Config.</text>
+</svg>
