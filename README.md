@@ -22,7 +22,7 @@ El caso es una consultora ficticia de auditoría y optimización de procesos, co
 |---|---|
 | **Panel de control operativo** (público) | https://matiasai17.github.io/Coder_Matias-Medrano/ |
 | **Base de datos** (modo lectura) | https://airtable.com/appmVz5S3bfSSMfgU/shrOlTWeS1sUlkFAx |
-| **Video demostración** (3 min) | `<<PEGAR LINK DEL VIDEO>>` |
+| **Video demostración** (3 min) | https://www.loom.com/share/b96f19a2b693477d8ce0d01e8f62aa51 |
 
 ---
 
