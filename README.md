@@ -45,7 +45,9 @@ El caso es una consultora ficticia de auditoría y optimización de procesos, co
 | Orquestador | **n8n** | Flujo principal, sub-flujo de errores y proceso mensual por lotes |
 | Base de datos | **Airtable** (`VECTOR_OPS`) | Memoria relacional: 7 tablas vinculadas |
 | Procesamiento IA | **GPT-4o-mini** + **Claude** | Clasificación económica y análisis de lectura densa |
-| Canales de salida | **Gmail** · **Slack** · **WhatsApp API** | Respuesta al cliente, aprobación interna, alerta VIP |
+| Canales de salida | **Gmail** · **Slack** · WhatsApp API *(diseñado, no implementado)* | Respuesta al cliente, aprobación interna |
+
+> WhatsApp está completamente especificado — plantilla, esquema JSON y punto HITL de resguardo — en el criterio 2 y en el diagrama de arquitectura. No se implementó en esta demo porque el enunciado exige un solo canal de salida y Gmail + Slack ya lo cubren; agregar WhatsApp real requiere alta de número en Meta Business, un trámite ajeno al alcance del proyecto.
 
 ---
 
